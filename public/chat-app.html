@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App v3</title>
+    <link preload rel="stylesheet" href="chat-app.css">
+    <script defer src="emojiPicker.js"></script>
+    <script defer src="utils.js" ></script>
+    <script defer src="login.js" ></script>
+    <script defer src="chat-app-v3.js" ></script>
+
+</head>
+<body>
+    <header>
+        <p class="my-img">😀</p>
+        <p class="my-username"></p>
+    </header>
+
+    <main id="chat-log-container">
+    </main>
+
+    <form id="message-form">
+        <input id="message-text" type="text" autocomplete="off" placeholder="message..." data-emoji-picker="true">
+        <button id="message-button" type="submit">Send</button>
+    </form>
+</body>
+</html>
